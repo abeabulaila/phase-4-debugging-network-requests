@@ -23,10 +23,10 @@ function MovieForm() {
       },
       body: JSON.stringify(formData),
     })
-      .then((r) => r.json())
-      .then((data) => {
-        console.log(data);
-      });
+      // .then((r) => r.json())
+      // .then((data) => {
+      //   console.log(data);
+      // });
   }
 
   function handleChange(e) {
